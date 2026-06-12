@@ -1,4 +1,7 @@
+import Countdown from "@/components/Countdown";
+
 import Image from "next/image";
+
 
 export default function Home() {
 return ( <main className="bg-gradient-to-b from-purple-950 via-purple-900 to-purple-800 text-white">
@@ -115,43 +118,18 @@ return ( <main className="bg-gradient-to-b from-purple-950 via-purple-900 to-pur
   </section>
 
   {/* Countdown Section */}
+{/* Countdown Section */}
 <section className="max-w-6xl mx-auto px-6 pb-20">
 
-  <h2 className="text-5xl font-bold text-center mb-10">
+  <h2 className="text-5xl font-bold text-center mb-4">
     Golden Jubilee Countdown
   </h2>
 
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+  <p className="text-center text-purple-200 mb-10">
+    November 1, 2026
+  </p>
 
-    <div className="bg-white/10 p-8 rounded-2xl text-center">
-      <h3 className="text-5xl font-bold text-yellow-400">
-        50
-      </h3>
-      <p className="mt-2">Years</p>
-    </div>
-
-    <div className="bg-white/10 p-8 rounded-2xl text-center">
-      <h3 className="text-5xl font-bold text-yellow-400">
-        600
-      </h3>
-      <p className="mt-2">Months</p>
-    </div>
-
-    <div className="bg-white/10 p-8 rounded-2xl text-center">
-      <h3 className="text-5xl font-bold text-yellow-400">
-        18250
-      </h3>
-      <p className="mt-2">Days</p>
-    </div>
-
-    <div className="bg-white/10 p-8 rounded-2xl text-center">
-      <h3 className="text-5xl font-bold text-yellow-400">
-        3
-      </h3>
-      <p className="mt-2">Generations</p>
-    </div>
-
-  </div>
+  <Countdown />
 
 </section>
 
