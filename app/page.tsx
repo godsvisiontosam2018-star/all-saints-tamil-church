@@ -66,7 +66,7 @@ return ( <main className="bg-gradient-to-b from-purple-950 via-purple-900 to-pur
 </nav>
 
   {/* Hero Section */}
-  <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24">
+  <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-48">
 
     <Image
       src="/logo.png"
@@ -128,6 +128,9 @@ return ( <main className="bg-gradient-to-b from-purple-950 via-purple-900 to-pur
   <p className="text-center text-purple-200 mb-10">
     November 1, 2026
   </p>
+  <p className="text-center text-yellow-400 text-xl mt-2">
+  Celebrating 50 Years of God's Faithfulness
+</p>
 
   <Countdown />
 
